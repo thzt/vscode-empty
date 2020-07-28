@@ -1,0 +1,38 @@
+{
+  "name": "vscode-empty",
+  "version": "1.0.0",
+  "description": "Empty VSCode Extension",
+  "main": "out/extension.js",
+  "scripts": {
+    "build": "rm -rf out && tsc -p .",
+    "watch": "rm -rf out && tsc -watch -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thzt/vscode-empty"
+  },
+  "keywords": [
+    "Empty",
+    "VSCode"
+  ],
+  "author": "thzt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thzt/vscode-empty/issues"
+  },
+  "homepage": "https://github.com/thzt/vscode-empty#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "@types/vscode": "^1.46.0",
+    "typescript": "^3.9.7"
+  },
+  "publisher": "thzt",
+  "displayName": "VSCode Empty",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "activationEvents": [
+    "*"
+  ]
+}
